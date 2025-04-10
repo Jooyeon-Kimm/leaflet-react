@@ -10,8 +10,6 @@ function App() {
     <div className="App"
     style={{height: '100vh'}}>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-       <Hello/>
        <MyClock/>
       </header>
       <MapView/>
