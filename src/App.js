@@ -2,7 +2,8 @@ import logo from './logo.svg'; // svg image file
 import './App.css';
 import { FaMapMarked } from "react-icons/fa"; // icon
 import MapView from './MapView';
-
+import Hello from './01_Hello_Component/Hello';
+import MyClock from './02_MyClock/MyClock';
 
 function App() {
   return (
@@ -10,17 +11,8 @@ function App() {
     style={{height: '100vh'}}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p className='bg-slate-500'>
-          Edit <code>src/App.js</code> and save to reload.<FaMapMarked />
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <Hello/>
+       <MyClock/>
       </header>
       <MapView/>
     </div>
