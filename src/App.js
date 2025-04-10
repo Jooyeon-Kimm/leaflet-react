@@ -6,7 +6,7 @@ import Hello from './01_Hello_Component/Hello';
 import MyClock from './02_MyClock/MyClock';
 import { BiHomeHeart } from "react-icons/bi";
 import MyDiv1 from './03_Probs/MyDiv1';
-
+import MyList from './04_Probs_Advanced/MyList';
 
 // flex-col : 수직 배치
 // w-full   : 화면 전체 너비
@@ -28,7 +28,8 @@ function App() {
       </header>
 
       <main className='grow w-full flex justify-center items-center overflow-y-auto'>
-        <MyDiv1/>
+        {/* <MyDiv1/> */}
+        <MyList/>
       </main>
 
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
