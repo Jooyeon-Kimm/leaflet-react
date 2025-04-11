@@ -1,5 +1,5 @@
 import logo from './logo.svg'; // svg image file
-import './App.css';
+import './App.css'; // 전역 css (모듈 css는 import styles ... module.css)
 import { FaMapMarked } from "react-icons/fa"; // icon
 import MapView from './MapView';
 import Hello from './01_Hello_Component/Hello';
@@ -29,9 +29,10 @@ function App() {
       </header>
 
       <main className='grow w-full flex justify-center items-center overflow-y-auto'>
+      <MyClock/>
         {/* <MyDiv1/> */}
         {/* <MyList/> */}
-        <Lotto/>
+        {/* <Lotto/> */}
       </main>
 
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>

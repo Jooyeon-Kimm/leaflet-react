@@ -3,8 +3,8 @@ import clock from './clock.png'
 function MyClockImage() {
 
     return(
-        <div className="flex justify-center">
-            <img src={clock} alt='clock' width="50%" height="50%" />
+        <div className="c2">
+            <img src={clock} alt='clock'/>
         </div>
     );
 }
