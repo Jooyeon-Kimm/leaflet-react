@@ -4,12 +4,14 @@ export default function TailButton({caption, bcolor, clickHandler}) {
   const colorB = {
       'blue' : 'bg-blue-600',
       'orange': 'bg-orange-600',
+      'lime' : 'bg-lime-600',
   }
 
   // hover color
   const colorH = {
       'blue' : 'hover:bg-blue-800',
       'orange': 'hover:bg-orange-800',
+      'lime' : 'bg-lime-800',
   }
 return (
   // 마우스 올라가면 색 변경: hover

@@ -9,6 +9,7 @@ import MyDiv1 from './03_Probs/MyDiv1';
 import MyList from './04_Probs_Advanced/MyList';
 import Lotto from './05_Lottery_UseState_Hook/Lotto';
 import Traffic from './06_API_Side_Effect/Traffic';
+import MyRef from './07_useRef_DOM_Access/MyRef';
 
 // flex-col : 수직 배치
 // w-full   : 화면 전체 너비
@@ -25,16 +26,18 @@ function App() {
   return (
     <div className="flex flex-col w-full h-screen mx-auto">
       <header className='flex justify-between items-center text-xl font-bold h-20 p-10 bg-slate-200'>
-      <p>리액트 기초 : probs</p>
+      <p>리액트 기초 : myRef & DOM ACCESS </p>
       <p><BiHomeHeart/></p>
       </header>
 
       <main className='grow w-full flex justify-center items-center overflow-y-auto'>
-      {/* <MyClock/> */}
+        {/* <Hello/> */}
+        {/* <MyClock/> */}
         {/* <MyDiv1/> */}
         {/* <MyList/> */}
         {/* <Lotto/> */}
-        <Traffic/>
+        {/* <Traffic/> */}
+        <MyRef/>
       </main>
 
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
