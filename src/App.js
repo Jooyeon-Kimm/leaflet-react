@@ -10,6 +10,8 @@ import MyList from './04_Probs_Advanced/MyList';
 import Lotto from './05_Lottery_UseState_Hook/Lotto';
 import Traffic from './06_API_Side_Effect/Traffic';
 import MyRef from './07_useRef_DOM_Access/MyRef';
+import MapPage from './MapPage';
+import RouteMain from './09_Router/RouteMain';
 
 // flex-col : 수직 배치
 // w-full   : 화면 전체 너비
@@ -37,7 +39,9 @@ function App() {
         {/* <MyList/> */}
         {/* <Lotto/> */}
         {/* <Traffic/> */}
-        <MyRef/>
+        {/* <MyRef/> */}
+        <RouteMain/>
+        {/* <MapPage/> */}
       </main>
 
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
